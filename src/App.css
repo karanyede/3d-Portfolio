@@ -1,0 +1,52 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.neon-text {
+  text-shadow: 0 0 5px var(--accent-dark), 0 0 10px var(--accent-dark), 0 0 15px var(--accent-dark), 0 0 20px var(--accent-dark);
+}
+
+.dark .neon-text {
+  text-shadow: 0 0 5px var(--accent-dark), 0 0 10px var(--accent-dark), 0 0 15px var(--accent-dark), 0 0 20px var(--accent-dark);
+}
+
+.light .neon-text {
+  text-shadow: 0 0 5px var(--accent-light), 0 0 10px var(--accent-light), 0 0 15px var(--accent-light), 0 0 20px var(--accent-light);
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--accent-dark);
+  color: var(--primary-dark);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+  color: var(--accent-dark);
+  box-shadow: 0 0 10px var(--accent-dark);
+}
+
+.light .btn-primary {
+  background-color: var(--accent-light);
+  color: var(--primary-light);
+}
+
+.light .btn-primary:hover {
+  background-color: var(--primary-light);
+  color: var(--accent-light);
+  box-shadow: 0 0 10px var(--accent-light);
+}

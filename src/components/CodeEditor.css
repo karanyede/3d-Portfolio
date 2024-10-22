@@ -1,0 +1,47 @@
+.code-editor {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.code-editor h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.editor-container {
+  border: 1px solid var(--accent-dark);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.light .editor-container {
+  border-color: var(--accent-light);
+}
+
+.run-button {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.output {
+  margin-top: 20px;
+  background-color: var(--secondary-dark);
+  border: 1px solid var(--accent-dark);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.light .output {
+  background-color: var(--secondary-light);
+  border-color: var(--accent-light);
+}
+
+.output h3 {
+  margin-bottom: 10px;
+}
+
+.output pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

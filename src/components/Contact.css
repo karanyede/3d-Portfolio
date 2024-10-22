@@ -1,0 +1,47 @@
+.contact {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--accent-dark);
+  border-radius: 5px;
+  background-color: var(--secondary-dark);
+  color: var(--text-dark);
+}
+
+.light .form-group input,
+.light .form-group textarea {
+  border: 1px solid var(--accent-light);
+  background-color: var(--secondary-light);
+  color: var(--text-light);
+}
+
+.form-group textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.status-message {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
